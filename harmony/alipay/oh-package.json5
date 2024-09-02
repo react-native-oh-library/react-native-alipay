@@ -1,0 +1,16 @@
+{
+  "name": "@react-native-oh-tpl/react-native-alipay",
+  "version": "5.0.2-0.0.1",
+  "description": "Alipay",
+  "main": "index.ets",
+  "author": "",
+  "license": "Apache-2.0",
+  "types": "",
+  "devDependencies": {},
+  "dependencies": {
+    "@rnoh/react-native-openharmony": "file:../react_native_openharmony",
+    "@cashier_alipay/cashiersdk": "^15.8.25",
+    "@alipay/afservicesdk": "file:./libs/AFServiceSDK.har"
+  },
+  "dynamicDependencies": {}
+}
