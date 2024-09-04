@@ -1,56 +1,39 @@
 {
-  "name": "@uiw/react-native-alipay",
-  "title": "React Native Alipay",
-  "version": "5.0.2",
-  "description": "基于 React Native 的支付宝插件，支持Android/iOS。",
-  "main": "index.js",
-  "react-native": "index",
-  "typings": "index.d.ts",
-  "files": [
-    "android/libs",
-    "android/src",
-    "android/build.gradle",
-    "react-native-alipay.podspec",
-    "ios",
-    "index.d.ts",
-    "index.js",
-    "README.md"
-  ],
-  "scripts": {
-    "example": "yarn --cwd example",
-    "bootstrap": "yarn example && yarn && yarn example pods",
-    "build": "typedoc"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/uiwjs/react-native-alipay.git",
-    "baseUrl": "https://github.com/uiwjs/react-native-alipay"
-  },
-  "keywords": [
-    "react-native",
-    "alipay",
-    "uiwjs",
-    "uiw",
-    "支付宝",
-    "ios",
-    "android"
-  ],
-  "author": {
-    "name": "Kenny Wong",
-    "email": "wowohoo@qq.com"
-  },
-  "license": "MIT",
-  "licenseFilename": "LICENSE",
-  "readmeFilename": "README.md",
-  "peerDependencies": {
-    "react": "*",
-    "react-native": "*"
-  },
-  "devDependencies": {
-    "react": "18.0.0",
-    "react-native": "0.69.3",
-    "pod-install": "^0.1.0",
-    "typedoc": "0.20.36",
-    "typescript": "4.2.4"
+    "name": "@react-native-oh-tpl/react-native-alipay",
+    "version": "5.0.2-0.0.1",
+    "description": "alipay with TurboModules",
+    "main": "index.js",
+    "keywords": ["react-native", "ios", "android", "harmony"],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/react-native-oh-library/react-native-alipay"
+    },
+    "author": "<Your Name> <your_email@your_provider.com> (https://github.com/uiwjs)",
+    "license": "MIT",
+    "bugs": {
+      "url": "git://github.com/react-native-oh-library/react-native-alipay.git"
+    },
+    "homepage": "https://github.com/uiwjs/react-native-alipay#readme",
+    "devDependencies": {},
+    "peerDependencies": {
+      "react": "*",
+      "react-native": "*"
+    },
+    "harmony": {
+      "alias": "react-native-alipay",
+      "codegenConfig": {
+        "specPaths": [
+          "./src"
+        ]
+      }
+    },
+    "codegenConfig": {
+      "name": "RNAlipaySpec",
+      "type": "modules",
+      "jsSrcsDir": "src",
+      "android": {
+        "javaPackageName": "com.rnalipay"
+      }
+    }
   }
-}
+  
