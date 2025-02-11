@@ -3,7 +3,7 @@
     "version": "5.0.2-0.0.1",
     "description": "alipay with TurboModules",
     "main": "index.js",
-    "keywords": ["react-native", "ios", "android", "harmony"],
+    "keywords": ["react-native", "harmony"],
     "repository": {
       "type": "git",
       "url": "https://github.com/react-native-oh-library/react-native-alipay"
@@ -30,10 +30,7 @@
     "codegenConfig": {
       "name": "RNAlipaySpec",
       "type": "modules",
-      "jsSrcsDir": "src",
-      "android": {
-        "javaPackageName": "com.rnalipay"
-      }
+      "jsSrcsDir": "src"
     }
   }
   
