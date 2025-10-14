@@ -9,7 +9,7 @@
   "devDependencies": {},
   "dependencies": {
     "@rnoh/react-native-openharmony": "file:../react_native_openharmony",
-    "@cashier_alipay/cashiersdk": "^15.8.25",
+    "@cashier_alipay/cashiersdk": "15.8.25",
     "@alipay/afservicesdk": "file:./libs/AFServiceSDK.har"
   },
   "dynamicDependencies": {}
