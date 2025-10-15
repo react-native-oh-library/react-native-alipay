@@ -1,6 +1,6 @@
 {
     "name": "@react-native-oh-tpl/react-native-alipay",
-    "version": "5.0.2-0.0.1",
+    "version": "5.0.2-0.0.2-rc.1",
     "description": "alipay with TurboModules",
     "main": "index.js",
     "keywords": ["react-native", "harmony"],
